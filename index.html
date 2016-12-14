@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Basket</title>
+	<meta name="keywords" content="lodka.com.ua">
+	<!--- Component CSS -->
+	<link rel="stylesheet" href="stylesheets/font-awesome.css">
+	<link rel="stylesheet" href="stylesheets/iziModal.min.css">
+	<link rel="stylesheet" href="stylesheets/main-style.css">
+
+</head>
+<body>
+	
+	<!-- Trigger to open Modal -->
+	<button class="trigger-custom">BUTTON</button>
+
+
+	<div id="modal-custom" data-iziModal-group="grupo1">
+		<button data-iziModal-close class="icon-close">x</button>
+		<form id="ShoppingCartForm" action="#" name="ShoppingCartForm" method="post">
+			<header>
+				<h2 class="modal-title">Ваша корзина</h2>
+			</header>
+			<section class="main-content">
+				<div class="last-item-title">
+					<h2 class="item-title">Лодочный мотор Mercury 5M</h2>
+					<h3 class="status">успешно добавлен в корзину</h3>
+				</div>
+				<div class="order-table">
+					<table cellpadding="0" cellspacing="0">
+						<tbody>
+							<tr class="line">
+								<th class="products" width="300">Товары</th>
+								<th class="for-item-only" width="120">
+									<strong class="price-title">Цена</strong>
+									<span class="price">грн.</span>
+								</th>
+								<th class="count-product" width="120">Количество</th>
+								<th class="latest-price" width="160">
+									<strong>Сумма</strong>
+									<span>грн.</span>
+								</th>
+								<th>&nbsp;</th>
+							</tr>
+
+							<tr class="prodtr">
+								<td class="img-and-name" width="300">
+									<input type="hidden" class="cost" value="29290">
+									<div class="item">
+										<div class="img">
+											<a href="#">
+												<img src="images/motor.jpg" alt="product">
+											</a>
+										</div>
+										<div class="txt">
+											<div class="name">
+												<a href="@">Лодочный мотор Mercury 5M</a>
+											</div>
+											<div class="cat">
+												<a href="#"></a>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td class="td-c" width="120">
+									<strong class="cost">
+										29 290 
+										<span>грн.</span>
+									</strong>
+								</td>
+								<td class="td-q" width="120">
+									<div class="counter">
+										<div class="number">
+											<div class="minus">
+												<span>-</span>
+											</div>
+											<input autocomplete="off" readonly="readonly" type="text" value="3" id="number-count" name="count">
+											<div class="plus">
+												<span>+</span>
+											</div>
+										</div>
+									</div>
+								</td>
+								<td class="last" width="120">
+									<strong class="finish-cost">
+										29 290 
+										<span>грн.</span>
+									</strong>
+								</td>
+								<td class="delete">
+									<a href="#" class="del" title="Удалить">
+										<span>x</span>
+									</a>
+								</td>
+							</tr>
+
+						</tbody>
+					</table>
+					<div class="bottom">
+						Всего: <strong class="cost">29 290 <span>грн.</span></strong>
+					</div>
+					<div class="linksbox">
+						<div class="left">
+							<a href="#">
+								<strong>вернуться к покупкам</strong>
+							</a>
+						</div>
+						<div class="center">
+							<p>
+								<a href="#" class="bbut">
+									<span>перезвоните мне</span>
+								</a>
+							</p>
+						</div>
+						<div class="right">
+							<p>
+								<a href="#" class="gnbut">
+									<span>оформить заказ</span>
+								</a>
+							</p>
+							<strong>Следующий шаг:<br>
+								выбор способа доставки и оплаты</strong>
+							</div>
+						</div>
+					</div>
+				</section>
+			</form>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery1.9.1.min.js"></script>
+		<script src="js/iziModal.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+	</html>

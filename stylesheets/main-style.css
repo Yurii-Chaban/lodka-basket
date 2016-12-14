@@ -76,3 +76,487 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: normal;
   font-style: normal;
 }
+/* line 21, ../sass/main-style.scss */
+body {
+  font-family: 'Arial', 'Helvetica', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* line 28, ../sass/main-style.scss */
+* {
+  outline: none;
+}
+
+/* line 57, ../sass/main-style.scss */
+.wrapper {
+  max-width: 835px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* line 65, ../sass/main-style.scss */
+a {
+  text-decoration: none;
+}
+
+/*Modal Style*/
+/* line 70, ../sass/main-style.scss */
+:focus {
+  outline: 0;
+}
+
+/* line 71, ../sass/main-style.scss */
+a:link, a:visited, a:active {
+  text-decoration: none;
+  color: #21b3b4;
+}
+
+/* line 72, ../sass/main-style.scss */
+table {
+  border-collapse: separate;
+  border-spacing: 0;
+  width: 100%;
+}
+
+/* line 73, ../sass/main-style.scss */
+th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+/* line 74, ../sass/main-style.scss */
+tr {
+  line-height: 30px;
+}
+
+/* line 75, ../sass/main-style.scss */
+img, iframe {
+  border: none;
+  text-decoration: none;
+}
+
+/* line 76, ../sass/main-style.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 77, ../sass/main-style.scss */
+input, textarea, select, button {
+  font-size: 100%;
+  font-family: inherit;
+}
+
+/* line 78, ../sass/main-style.scss */
+*, *:after, *::before {
+  box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
+/* line 81, ../sass/main-style.scss */
+.trigger-custom {
+  display: block;
+  margin: 20% auto;
+  text-align: center;
+  color: #912CEE;
+  font-size: 100px;
+  background: #FF34B3;
+}
+
+/* line 89, ../sass/main-style.scss */
+#modal-custom {
+  width: 100%;
+}
+/* line 92, ../sass/main-style.scss */
+#modal-custom header {
+  width: 100%;
+  height: 39px;
+  overflow: hidden;
+  background: #2f2f30;
+}
+/* line 98, ../sass/main-style.scss */
+#modal-custom header .modal-title {
+  margin: 5px auto 0;
+  text-align: center;
+  color: #fff;
+  font: 400 20px/29px "Arial", sans-serif;
+}
+/* line 107, ../sass/main-style.scss */
+#modal-custom .main-content .last-item-title {
+  width: 805px;
+  min-height: 48px;
+  height: auto;
+  overflow: hidden;
+  margin: 17px auto 22px;
+  padding: 7px 0 8px 13px;
+  border: 2px solid #006cb8;
+}
+/* line 116, ../sass/main-style.scss */
+#modal-custom .main-content .last-item-title .item-title {
+  float: left;
+  max-width: 45%;
+  width: auto;
+  margin: 0 11px 0 0;
+  color: #292f32;
+  font: 400 20px/29px "Arial", sans-serif;
+}
+/* line 125, ../sass/main-style.scss */
+#modal-custom .main-content .last-item-title .status {
+  width: auto;
+  color: #5a5a5a;
+  font: 400 19px/29px "Arial", sans-serif;
+}
+/* line 132, ../sass/main-style.scss */
+#modal-custom .main-content .order-table {
+  width: 805px;
+  margin: 0 auto;
+}
+/* line 139, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .line th {
+  border-bottom: 1px solid #006cb8;
+}
+/* line 143, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table th {
+  padding: 0px 20px 10px 0px;
+  color: #006cb8;
+  font: 400 13px/20px "Arial", sans-serif;
+}
+/* line 148, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table th strong {
+  float: left;
+  color: #006cb8;
+  font: 400 15px/20px "Arial", sans-serif;
+}
+/* line 154, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table th span {
+  float: right;
+  color: #3f96d3;
+  font: 400 13px/20px "Arial", sans-serif;
+}
+/* line 161, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .for-item-only {
+  padding: 0px 25px 10px 0px;
+}
+/* line 167, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr td {
+  padding: 15px 0 20px;
+}
+/* line 172, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .img-and-name .item .img {
+  float: left;
+  width: 96px;
+  height: 96px;
+  overflow: hidden;
+  margin: 0 7px 0 0;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #BFBFBF;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.75);
+}
+/* line 183, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .img-and-name .item .img img {
+  max-width: 100%;
+  height: auto;
+}
+/* line 189, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .img-and-name .item .txt {
+  overflow: hidden;
+  width: 125px;
+  color: #006cb8;
+  font: 400 16px/23px "Arial", sans-serif;
+}
+/* line 196, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .img-and-name .item .txt .name a {
+  color: #006cb8;
+}
+/* line 204, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .td-c .cost {
+  font: 400 15px/29px "Arial", sans-serif;
+  color: #006cb8;
+}
+/* line 208, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .td-c .cost span {
+  padding-left: 10px;
+  font-size: 13px;
+  color: #3f96d3;
+}
+/* line 216, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .td-q {
+  text-align: left;
+}
+/* line 219, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .td-q .counter {
+  padding-left: 30px;
+}
+/* line 223, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .td-q .minus,
+#modal-custom .main-content .order-table table .prodtr .td-q .plus {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  color: #3f96d3;
+  font: 400 13px/20px "Arial", sans-serif;
+  text-align: center;
+  border: 1px solid #3f96d3;
+  border-radius: 100%;
+  cursor: pointer;
+}
+/* line 235, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .td-q .minus span,
+#modal-custom .main-content .order-table table .prodtr .td-q .plus span {
+  display: block;
+}
+/* line 240, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .td-q #number-count {
+  display: inline-block;
+  width: 20px;
+  margin: 0 0 0 5px;
+  background: transparent;
+  border: none;
+  color: #006cb8;
+  font: 400 17px/29px "Arial", sans-serif;
+}
+/* line 251, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .last {
+  padding: 0px 20px 10px 30px;
+}
+/* line 254, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .last .finish-cost {
+  font: 400 15px/29px "Arial", sans-serif;
+  color: #006cb8;
+}
+/* line 258, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .last .finish-cost span {
+  padding-left: 10px;
+  font-size: 13px;
+  color: #3f96d3;
+}
+/* line 267, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .delete a {
+  display: block;
+  width: 20px;
+  height: 20px;
+  color: #3f96d3;
+  text-align: center;
+  border: 1px solid #3f96d3;
+  border-radius: 100%;
+  cursor: pointer;
+}
+/* line 277, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .delete a span {
+  color: #3f96d3;
+  font-weight: 100;
+  font-size: 20px;
+  line-height: 16px;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+/* line 286, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .prodtr .delete a span:hover {
+  color: red;
+}
+/* line 294, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .products {
+  padding: 0px 20px 0 23px;
+}
+/* line 297, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .for-item-only {
+  padding: 0px 25px 0 0px;
+}
+/* line 300, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .count-product {
+  padding: 0px 0px 0 30px;
+}
+/* line 303, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .latest-price {
+  padding: 0px 20px 0 30px;
+}
+/* line 306, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .latest-price strong {
+  float: left;
+  margin-right: 12px;
+}
+/* line 311, ../sass/main-style.scss */
+#modal-custom .main-content .order-table table .latest-price span {
+  float: inherit;
+}
+/* line 317, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .bottom {
+  text-align: right;
+  background: #cfdae2;
+  margin: 0 auto 32px;
+  padding: 1px 155px 1px 0;
+  color: #292f32;
+  font: 400 20px/29px "Arial", sans-serif;
+}
+/* line 325, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .bottom span {
+  color: #3f96d3;
+  font: 400 13px/29px "Arial", sans-serif;
+}
+/* line 331, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox {
+  overflow: hidden;
+}
+/* line 334, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox .left a {
+  float: left;
+  margin: 11px 0;
+  color: #006cb8;
+  font: 400 19px/23px "Arial", sans-serif;
+  text-decoration: underline;
+}
+/* line 343, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox .center {
+  float: left;
+  width: 221px;
+  height: 37px;
+  margin: 5px 0 0 63px;
+  background: #006cb8;
+  text-align: center;
+  color: #fff;
+  font: 400 19px/37px "Arial", sans-serif;
+}
+/* line 353, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox .center a {
+  color: #fff;
+}
+/* line 358, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox .right {
+  float: right;
+}
+/* line 361, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox .right p {
+  width: 220px;
+  height: 38px;
+  text-align: center;
+  margin: 5px 0 0;
+  background: url("../images/btn-bg.png") no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+/* line 370, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox .right p a {
+  margin: 0 auto;
+  color: #fff;
+  font: 400 19px/37px "Arial", sans-serif;
+}
+/* line 377, ../sass/main-style.scss */
+#modal-custom .main-content .order-table .linksbox .right strong {
+  display: block;
+  margin: 15px 0 21px;
+  color: #32383c;
+  font: 400 13px/17px "Arial", sans-serif;
+}
+
+/* line 389, ../sass/main-style.scss */
+#modal-custom .iziModal-content section {
+  padding: 0;
+  background: #e8e7e7;
+  overflow: hidden;
+}
+
+/* line 396, ../sass/main-style.scss */
+#modal-custom .iziModal-content .icon-close {
+  background: #FFF;
+  margin-bottom: 10px;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  border: 0;
+  color: #a9a9a9;
+  cursor: pointer;
+}
+
+/* line 411, ../sass/main-style.scss */
+#modal-custom .iziModal-content .icon-close:hover, #modal-custom .iziModal-content .icon-close:focus {
+  color: black;
+}
+
+@-webkit-keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes wobble {
+  from {
+    -webkit-transform: none;
+    transform: none;
+  }
+  15% {
+    -webkit-transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+    transform: translate3d(-25%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+  30% {
+    -webkit-transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 3deg);
+  }
+  45% {
+    -webkit-transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+    transform: translate3d(-15%, 0, 0) rotate3d(0, 0, 1, -3deg);
+  }
+  60% {
+    -webkit-transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+    transform: translate3d(10%, 0, 0) rotate3d(0, 0, 1, 2deg);
+  }
+  75% {
+    -webkit-transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+    transform: translate3d(-5%, 0, 0) rotate3d(0, 0, 1, -1deg);
+  }
+  to {
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+/* line 493, ../sass/main-style.scss */
+.wobble {
+  -webkit-animation-name: wobble;
+  animation-name: wobble;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
